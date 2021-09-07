@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "foo": "echo foo && exit 0",
+    "bar": "echo bar && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -19,4 +21,4 @@
     "test"
   ]
 }
-}
+
